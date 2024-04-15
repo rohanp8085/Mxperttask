@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    height: 70vh;
+    width: 100%;
+    /* color:/; */
+    background-position: center;
+    /* display: flex; */
+    /* align-items: ; */
+    background-color: darkblue;
+    justify-content: center;
+    /* background: darkcyan; */
+    padding: 30px;
+    background-size: cover;
+    background-image: url(./assets/dds.avif);
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: white;
+    background-color: none;
+    width: 100%;
+}
+.nave-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    
+}
+.nave-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sign-btn{
+   height: 50px;
+   width: 100px;
+   border-radius: 25px;
+   border: none;
+   color: white;font-size: 18px;
+   background-color: rgb(50, 116, 231);
+   /* background-color: rgb(8, 8, 56); */
+}
+svg{
+    width: 100%;
+    /* height: 220; */
+    /* background-color: red; */
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.hero-sec{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(5, 5, 67);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    
+    .navbar{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-group{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        min-height: 350px;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+}
